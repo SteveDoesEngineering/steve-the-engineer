@@ -1,3 +1,11 @@
+---
+toc: true
+layout: post
+description: Steve the engineers first post.
+categories: [markdown]
+title: First Blog and Post - Thanks to Fastai
+---
+
 # My First Blog
 
 Hello Folks!
