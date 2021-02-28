@@ -11,7 +11,7 @@ Over the past two years, I've taken up an interest in Machine Learning and speci
 
 It is primarily the reason for this blog and why I mention it (Appendix A).
 
-![]({{ site.baseurl }}/images/firstblog/fastai_bookcover_1.jpg "Deep Learning for Coders with fastai and PyTorch")
+![]({{ site.baseurl }}/images/firstblog/fastai_bookcover_1.png "Deep Learning for Coders with fastai and PyTorch")
 
 I'm also thinking to record what I know about the world of Power.
 
