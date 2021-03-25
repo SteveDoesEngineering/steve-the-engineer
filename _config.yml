@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Steve the Power Engineer
-description: Experiements by a power engineer interesting in Deep Learning.
+title: steve the engineer
+description: Experiements by an engineer interesting in Deep Learning.
 github_username: SteveDoesEngineering
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "steve-the-engineer"
@@ -23,7 +23,7 @@ url: "https://SteveDoesEngineering.github.io" # the base hostname & protocol for
 #    -  if you are not using a custom domain, the baseurl *must* be set to your repo name
 # 
 ####  Scenario Two: If you have a Custom Domain #####
-# 1. If your domain does NOT have a subpath, this leave this value as ""
+# 1. If your domain does NOT have a subpath, then leave this value as ""
 # 2. If your domain does have a subpath, you must preceed the value with a / and NOT have a / at the end.  
 #      For example: 
 #           "" is valid
