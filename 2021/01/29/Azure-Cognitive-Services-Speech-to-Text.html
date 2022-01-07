@@ -1,24 +1,18 @@
 <h1 id="azure-cognitive-service-for-speech-to-text">Azure Cognitive Service for Speech to Text</h1>
 
 <p>Today was an experiment with Azure cognitive tool kit!
-Its always interesting to see how use of cloud computing goes from the most remote city in the world.
-Still the network speeds aren’t terrible in 2021, even with the extra NETFLIX and Streaming traffic due to COVID-19</p>
-
-<p>ADD WEBSITE HERE</p>
+Its always interesting to see how use of cloud computing goes from the most remote city in the world (Perth, Western Australia).
+Still the network speeds aren’t terrible in 2021, even with the extra NETFLIX and Streaming traffic due to COVID-19.</p>
 
 <p>REASON:
 I wanted to try out Azure voice to text and see how well it would work.
-My intention for this is to take the work out of minute notes and indexing of video recordings.
-My ideal would be meeting minutes produced for me without effort at the end of a recording.
-They would then be in a format that allows search to be rapid and improved over manual.
-This is mainly for accountability and understanding purposes of the recorded material.</p>
+My intention for this is to take the work out of indexing of video recordings.
+My ideal would be meeting minutes produced for me without effort at the end of a recording.</p>
 
 <p>SOFTWARE:
 First thing, I’m doing this using python and as of this post python is up to 3.9.1.
 As Python is a particularly forgiving language for starting out/rapid prototyping.
 This version DOES NOT work with Azure cognitive tools so you will need 3.7.6 for compatibility.</p>
-
-<p>ADD WEBSITE HERE</p>
 
 <p>So, I’m not sure how you like to arrange things but I like to put versions of python into folders with the packages
 and run virtualenv [folder address and name], install cmd prompt: virtualenv path/to/folder/VenvNAME.
@@ -28,13 +22,11 @@ This allows executables with py2exe to only use the packages necessary once you 
 
 <p>With this installed, I was then able to install jupyter and run all the other installs from magics within a notebook (e.g. !pip install pandas)</p>
 
-<p>PIP INSTALL JUPYTER</p>
-
 <p>SETUP OF CHAIN:
 Once all set up, the following are required:</p>
 <ol>
-  <li>A suitable video or voice recording</li>
-  <li>To download FFMPEG source code or a binary depending on your OS and install in a location and add to PATH.</li>
+  <li>A suitable video or voice recording to process.</li>
+  <li>To download FFMPEG source code or a binary depending on your OS and install in a location and add to PATH/system vars.</li>
   <li>convert the video or audio via FFMPEG into a .wav format, which is necessary for the Azure API.</li>
   <li>Install the azure cognitive Software Development Kit</li>
   <li>Optionally, install the spx CLI, which doesn’t require knowing Python, C++ or C# etc (No Code).</li>
@@ -54,11 +46,7 @@ The executable can be placed in a folder and added to path, I decided (unwisely)
 <p>I also found that you can use the convert function in VLC using the GUI but this is quite slow and clunky in the long term.
 Top tip for VLC is to use more options and select convert explicitedly.</p>
 
-<p>ADD SCREENSHOT FFMPEG line to modify</p>
-
 <p>4: The cognitive services are pretty easy to install via jupyter with a magic and pip.</p>
-
-<p>ADD PIP screenshot from notebook</p>
 
 <p>5: SPX is a “no code” command line tool, which still requires understanding the cmdline etc. So is at best a convienent way if python/jupyter is not
 an option.</p>
@@ -66,12 +54,7 @@ an option.</p>
 <p>6: Use an existing microsoft account or create one and pass them your credit card details.
 7: Once in the Azure console, the Speech API needs to be added as a service and the key and region found.</p>
 
-<p>ADD SPEECH API</p>
-
 <p>8: Finding the API KEY (there are two, that can be individually regenerated) and REGION</p>
-
-<p>ADD KEY and REGION screens
-ADD input into example code.</p>
 
 <p>EXPERIENCE USING AZURE COGNITIVE SERVICE - SPEECH TO TEXT (standard models):
 The whole experience is pretty good.
